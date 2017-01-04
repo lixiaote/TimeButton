@@ -73,7 +73,7 @@ public class TimeButton extends Button {
     }
 
     /**
-     * 设置计时时候显示的文本
+     * Sets the text to be displayed at the time of the timer
      */
     public TimeButton setTextAfter(String after) {
         this.textafter = after;
@@ -81,7 +81,7 @@ public class TimeButton extends Button {
     }
 
     /**
-     * 设置点击之前的文本
+     * Sets the text before clicking
      */
     public TimeButton setTextBefore(String before) {
         this.textbefore = before;
@@ -90,9 +90,9 @@ public class TimeButton extends Button {
     }
 
     /**
-     * 设置到计时长度
+     * Set to the length of the timer
      *
-     * @param lenght 时间 默认毫秒
+     * @param lenght Time defaults to milliseconds
      * @return
      */
     public TimeButton setLenght(long lenght) {
