@@ -13,9 +13,9 @@ import java.util.TimerTask;
  * Created by talon on 2016/5/30.
  */
 public class TimeButton extends Button {
-    private long lenght = 60 * 1000;// 倒计时长度，默认60秒
-    private String textafter = "秒后重新获取";
-    private String textbefore = "点击获取验证码";
+    private long lenght = 60 * 1000;// Countdown length, default 60 seconds
+    private String textafter = "Seconds to re-obtain";
+    private String textbefore = "Click Get Verification Code";
 
     private Timer t;
     private TimerTask tt;
