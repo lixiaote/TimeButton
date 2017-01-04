@@ -1,4 +1,4 @@
-package com.work.talon.timebutton.view;
+package talon.com.timebtn;
 
 import android.content.Context;
 import android.os.Handler;
