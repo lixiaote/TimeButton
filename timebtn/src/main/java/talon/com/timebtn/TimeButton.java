@@ -72,29 +72,24 @@ public class TimeButton extends Button {
         };
     }
 
-    /**
-     * Sets the text to be displayed at the time of the timer
-     */
+    //Sets the text to be displayed at the time of the timer
+
     public TimeButton setTextAfter(String after) {
         this.textafter = after;
         return this;
     }
 
-    /**
-     * Sets the text before clicking
-     */
+     //Sets the text before clicking
+
     public TimeButton setTextBefore(String before) {
         this.textbefore = before;
         this.setText(textbefore);
         return this;
     }
 
-    /**
-     * Set to the length of the timer
-     *
-     * @param lenght Time defaults to milliseconds
-     * @return
-     */
+    //Set to the length of the timer
+    // @param lenght Time defaults to milliseconds
+
     public TimeButton setLenght(long lenght) {
         this.lenght = lenght;
         return this;
